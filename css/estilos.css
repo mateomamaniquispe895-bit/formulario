@@ -1,0 +1,95 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f7;
+        margin: 16px;
+      }
+      form {
+        max-width: 720px;
+        margin: auto;
+        background: #fff;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+      }
+      h1 {
+        font-size: 1.1rem;
+        margin: 0 0 12px;
+      }
+      .g {
+        margin: 8px 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 4px;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #cfcfd4;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+      .acciones {
+        margin-top: 12px;
+      }
+      button {
+        padding: 9px 12px;
+        border: 1px solid #0b6bcb;
+        background: #1177dd;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button + button {
+        margin-left: 6px;
+        background: #eef3f9;
+        color: #0b6bcb;
+        border-color: #a7c7ef;
+      }
+      
+      @media screen and (max-width: 480px) {
+        body {
+          margin: 8px;
+          background: #cc6060;
+        }
+        
+        form {
+          padding: 10px;
+          margin: 0;
+          background: #b39393;
+        }
+
+        h1 {
+          font-size: 1rem;
+        }
+
+        input,
+        select {
+          font-size: 16px; 
+        }
+
+        .acciones {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+
+        button {
+          width: 100%;
+        }
+
+        button + button {
+          margin-left: 0;
+        }
+      }
+      @media screen and (min-width: 481px) and (max-width: 768px) {
+        body {
+          margin: 12px;
+        }
+
+        form {
+          max-width: 100%;
+          padding: 16px;
+        }
+      }
